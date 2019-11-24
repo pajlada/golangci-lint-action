@@ -8,6 +8,9 @@ inputs:
   config:
     description: 'Path of the GolangCI-Lint config file'
     required: false
+  extra_args:
+    description: 'Extra args for GolangCI-Lint'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
