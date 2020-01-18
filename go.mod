@@ -1,4 +1,4 @@
-module github.com/matoous/golangci-lint-action
+module github.com/pajlada/golangci-lint-action
 
 go 1.13
 
